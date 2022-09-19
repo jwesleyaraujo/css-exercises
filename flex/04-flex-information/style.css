@@ -24,3 +24,55 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* * {
+  border: 1px solid red;
+} */
+
+/* MY SOLUTION
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-item-1 {
+  margin-bottom: 32px;
+}
+
+.flex-item-2 {
+  display: flex;
+  gap: 52px;
+  flex: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  text-align: center;
+}
+
+*/
+
+/* SOLUTION */
+
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  max-width: 200px;
+}
